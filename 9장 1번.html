@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <title>월화수목금토일</title>
+</head>
+<body>
+    <h1>월화수목금토일</h1><hr>
+    <script>
+        let answer = prompt("월화수목금토일 중에서 입력하세요")
+        let go;
+        switch(answer){
+            case "월": go="출근"
+            break
+            case "화": go="출근"
+            break
+            case "수": go="출근"
+            break
+            case "목": go="출근"
+            break
+            case "금": go="출근"
+            break
+            case "토": go="휴일"
+            break
+            case "일": go="휴일"
+            break
+            default : document.write("요일을 입력 해 주세요")
+        }
+        document.write(answer + "요일은 " + go + "입니다.")
+    </script>
+</body>
+</html>
